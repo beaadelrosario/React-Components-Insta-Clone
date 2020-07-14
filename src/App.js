@@ -28,7 +28,7 @@ const App = () => {
     //  - otherwise just return the post object unchanged.
     setPosts(posts.map( pst => {
       if(pst.id === postId){
-        return {...pst,likes:pst.likes+1}
+        return {...pst , likes: pst.likes+1}
       }
       return pst
     }))
@@ -38,7 +38,7 @@ const App = () => {
     <div className="App">
       { /* Add SearchBar and Posts here to render them */}
       <SearchBar />
-      <Posts />
+      <Posts posts={posts} likePost={likePost}/>
       {/* Check the implementation of each component, to see what props they require, if any! */}
     </div>
   );
