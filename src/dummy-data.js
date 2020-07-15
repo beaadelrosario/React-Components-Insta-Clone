@@ -54,6 +54,21 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "bea__delrosario",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3750&q=80',
+        likes: 1,
+        timestamp: "July 15th 2017, 03:15:09 pm",
+        comments: [
+            {
+                id: 40,
+                username: "twitch",
+                text: "NOICE!",
+            }
+        ],
+    },
 ];
 
 export default dummyData;
