@@ -57,15 +57,25 @@ const dummyData = [
     {
         id: 3,
         username: "bea__delrosario",
-        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
-        imageUrl: 'https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3750&q=80',
-        likes: 1,
+        thumbnailUrl: 'https://images.unsplash.com/photo-1581467655410-0c2bf55d9d6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1091&q=80',
+        imageUrl: 'https://images.unsplash.com/photo-1594749794764-717b02dbb530?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80',
+        likes: 998,
         timestamp: "July 15th 2017, 03:15:09 pm",
         comments: [
             {
                 id: 40,
                 username: "twitch",
                 text: "NOICE!",
+            },
+            {
+                id: 41,
+                username: "izzyhasinsta",
+                text: "this is epic!",
+            },
+            {
+                id: 42,
+                username: "influencerSpam999",
+                text: "We love your content. DM me for identity theft",
             }
         ],
     },
